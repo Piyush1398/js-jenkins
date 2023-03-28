@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('verify version') {
             steps {
-                sh 'node --version'
+                echo "hello"
             }
         }
         stage('build') {
