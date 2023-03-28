@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
         steps{
-        sh 'php index.php'
+        sh 'node app.js'
         }
        }
     }
