@@ -4,11 +4,12 @@ pipeline {
         stage('verify version') {
             steps {
                 echo "hello"
+                sh 'ls -l'
             }
         }
         stage('build') {
         steps{
-        sh 'ls'
+
         sh 'NodeJS app.js'
         }
        }
