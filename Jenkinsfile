@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "hello"
                 echo "hey"
-                sh 'touch test.txt'
+                sh 'mkdir sample'
             }
         }
         stage('build') {
