@@ -8,6 +8,7 @@ pipeline {
         }
         stage('build') {
         steps{
+        sh 'ls'
         sh 'NodeJS app.js'
         }
        }
