@@ -4,7 +4,7 @@ pipeline {
         stage('verify version') {
             steps {
                 echo "hello"
-                sh 'ls -l'
+                echo "hey"
             }
         }
         stage('build') {
